@@ -1,0 +1,34 @@
+
+Finally, you are able (to use the IDE, but also) to compile an app, start the emulator and deploy an app via the commandline: 
+
+a) set environment variables and startup tools
+    
+Basic Tools: 
+        Studio, emulator/avd, API-Levels/Versions, gradle für module=app
+        Filesystem/pathes (PATH, ANDROID_SDK_ROOT) to easily start emulator, gradlew, adb/am
+
+b) Understand how an app is structured and compile, sign, package an app into an apk
+ 
+Apps: 
+hello world versus (https://github.com/android/sunflower)
+        res: manifest, layout/xml (Design/Code-View), strings.xml, Activity/Fragment
+        code: findViewById, setOnClickListener, Log.i
+        imports: androidx.navigation / databinding
+        fs: Kotlin => tmp/kotlin-classes/*.class
+        fs: Databinding => code "findById" generated .. see build-folder/.../FragmentFirstBinding.java)
+
+c) Deploy and start an app on the emulator
+
+Advanced Tool Usage: 
+        fs: intermediates/apk/debug/app-debug.apk 
+        inspect apk using Android Studio
+        Studiou/debug, 
+        commandline/adb
+        use scrcpy (https://github.com/Genymobile/scrcpy) to remote view/control (an app on) your device
+        
+        
+        
+        
+        
+- - - 
+
